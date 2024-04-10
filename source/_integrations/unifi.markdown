@@ -153,6 +153,17 @@ Get entities reporting the general temperature of a UniFi Network device.
 
 Get entities reporting the current state of a UniFi Network device.
 
+## Removing devices
+
+By default Home Assistant does not remove old device configurations, even if they are not present in Unifi network anymore. This can lead to an accumulation of older network clients.
+
+To manually remove a device, go to the Device Info page and select "Delete" from the Device Info menu.
+
+Only devices which have not been seen since the startup or reload of the Unifi integration can be removed.
+
+![4d4ca937-17bb-4902-9949-2ea83e3c2c0c](https://github.com/home-assistant/home-assistant.io/assets/21991867/4fa31e53-8c0e-4cca-876e-17263cc11a65)
+
+
 ## Firmware updates
 
 This will show if there are firmware updates available for the UniFi network devices connected to the controller. If the configured user has admin privileges, the firmware upgrades can also be installed directly from Home Assistant.
