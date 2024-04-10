@@ -155,11 +155,11 @@ Get entities reporting the current state of a UniFi Network device.
 
 ## Removing devices
 
-By default Home Assistant does not remove old device configurations, even if they are not present in Unifi network anymore. This can lead to an accumulation of older network clients.
+By default Home Assistant does not remove old device configurations, even if they are not present in UniFi network anymore. This can lead to an accumulation of older network clients.
 
 To manually remove a device, go to the Device Info page and select "Delete" from the Device Info menu.
 
-Only devices which have not been seen since the startup or reload of the Unifi integration can be removed.
+Only devices which have not been seen since the startup or reload of the UniFi integration can be removed.
 
 ![4d4ca937-17bb-4902-9949-2ea83e3c2c0c](https://github.com/home-assistant/home-assistant.io/assets/21991867/4fa31e53-8c0e-4cca-876e-17263cc11a65)
 
